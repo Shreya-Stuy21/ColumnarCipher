@@ -9,7 +9,7 @@ Bruteforce.java has many uses, but it's main functionality is to break a cipher 
 
 To encrypt, provide the plaintext you want to encrypt, as well as the key you want to encrypt it with. For example, if my keyword is "apple", I would enter any plaintext, and then I would enter "14532" based on the order a, p, p, l and e appear in the alphabet. (You can also enter "15432", since there are two Ps. I prefer to run the first P first).
 
-To decrypt, simply provide the cyphertext, and a number n, to try all permutations. This automatically generates a file, ColumCipherOutput.txt, that has stored each permutation's plaintext, a few lists of the words it found in the plaintext. along with the number of words. It should be noted that for each correct key, there will likely be more than one word list since there are words within words that the dictionary will find.
+To decrypt, simply provide the cyphertext, and a number n, to try all permutations. This automatically generates a file, ColumCipherOutput.txt, that has stored each permutation's plaintext, a few lists of the words it found in the plaintext, along with the number of words. It should be noted that for each correct key, there will likely be more than one word list since there are words within words that the dictionary will find.
 
 Encryption is optional but decryption is necessary. That means no matter what, Bruteforce.java will decrypt some text. You can either provide your own ciphertext or use the program's encrypt function to generate cyphertext for the program to decrypt.
 
